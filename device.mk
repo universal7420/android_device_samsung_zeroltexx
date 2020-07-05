@@ -23,5 +23,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2019-05-01
 
-# Inherit from zero-common
-$(call inherit-product, device/samsung/zero-common/zero-common.mk)
+# Inherit from universal7420-common
+$(call inherit-product, device/samsung/universal7420-common/universal7420-common.mk)

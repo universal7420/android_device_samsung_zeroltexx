@@ -20,8 +20,8 @@
 # definition file).
 #
 
-# inherit from zero-common
--include device/samsung/zero-common/BoardConfigCommon.mk
+# inherit from universal7420-common
+-include device/samsung/universal7420-common/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerolte,zeroltexx,zerolteskt
