@@ -19,6 +19,9 @@ LOCAL_PATH := device/samsung/zeroltexx
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Properties
+TARGET_SYSTEM_PROP += device/samsung/zeroltexx/system.prop
+
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2019-05-01
