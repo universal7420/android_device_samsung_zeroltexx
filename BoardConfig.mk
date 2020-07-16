@@ -26,9 +26,6 @@
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerolte,zeroltexx,zerolteskt
 
-# Bluetooth
-BOARD_BLUETOOTH_OID_BUILDCFG_INCLUDE_DIR := device/samsung/zeroltexx/bluetooth
-
 # Include path
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/zeroltexx/include
 
