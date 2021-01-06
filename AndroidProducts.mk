@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zeroltexx.mk 
+    $(LOCAL_DIR)/rr_zeroltexx.mk 
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zeroltexx-user \
-    lineage_zeroltexx-userdebug \
-    lineage_zeroltexx-eng
+    rr_zeroltexx-user \
+    rr_zeroltexx-userdebug \
+    rr_zeroltexx-eng
