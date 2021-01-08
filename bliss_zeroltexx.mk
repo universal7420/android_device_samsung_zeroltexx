@@ -45,6 +45,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=zeroltexx \
     TARGET_DEVICE=zerolte \
-    PRIVATE_BUILD_DESC="zeroltexx-user 7.0 NRD90M G925FXXU6ESG2 release-keys"
+    PRIVATE_BUILD_DESC="zeroltexx-user 7.0 NRD90M G925FXXS5EQL1 release-keys"
 
-BUILD_FINGERPRINT := "samsung/zeroltexx/zerolte:7.0/NRD90M/G925FXXU6ESG2:user/release-keys"
+BUILD_FINGERPRINT := "samsung/zeroltexx/zerolte:7.0/NRD90M/G925FXXS5EQL1:user/release-keys"
