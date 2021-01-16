@@ -28,3 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Inherit from universal7420-common
 $(call inherit-product, device/samsung/universal7420-common/universal7420-common.mk)
+
+# Also get non-open-source specific aspects if available
+$(call inherit-product-if-exists, vendor/samsung/zero-common/zero-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/zerofltexx/zerofltexx-vendor.mk)
