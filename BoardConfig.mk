@@ -23,6 +23,10 @@
 # inherit from universal7420-common
 -include device/samsung/universal7420-common/BoardConfigCommon.mk
 
+# Inherit from proprietary vendor
+-include vendor/samsung/zero-common/BoardConfigVendor.mk
+-include vendor/samsung/zerofltexx/BoardConfigVendor.mk
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := zerolte,zeroltexx,zerolteskt
 
